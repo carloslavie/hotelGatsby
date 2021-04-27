@@ -39,7 +39,8 @@ const ContenidoInicio = () => {
     console.log(informacion.allDatoCmsPagina.nodes[0])
 
     const { titulo, contenido, imagen } = informacion.allDatoCmsPagina.nodes[0];
-    console.log(imagen)
+    //console.log(imagen)
+    
     return ( 
         <>
             <h2
